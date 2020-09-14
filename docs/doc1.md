@@ -2,7 +2,7 @@
 id: doc1
 title: Heading 1
 sidebar_label: Heading 1
-slug: /heading
+slug: /
 ---
 
 You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/)

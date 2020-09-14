@@ -16,13 +16,12 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/heading',
+          to: 'docs/',
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'right',
         },
         {to: 'blog', label: 'Blog', position: 'right'},
-        // {to: 'api', activeBasePath: 'docs/api', label: 'API', position: 'right'},
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
@@ -38,7 +37,7 @@ module.exports = {
           items: [
             {
               label: 'Style Guide',
-              to: 'docs/heading',
+              to: 'docs/',
             },
             {
               label: 'Second Doc',
