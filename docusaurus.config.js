@@ -5,8 +5,8 @@ module.exports = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'lambdatest', // Usually your GitHub org/user name.
+  projectName: 'documentation', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'My Site',
@@ -16,12 +16,13 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/',
+          to: 'docs/heading',
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'right',
         },
         {to: 'blog', label: 'Blog', position: 'right'},
+        {to: 'api', activeBasePath: 'docs/api', label: 'API', position: 'right'},
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
@@ -37,7 +38,7 @@ module.exports = {
           items: [
             {
               label: 'Style Guide',
-              to: 'docs/',
+              to: 'docs/heading',
             },
             {
               label: 'Second Doc',
