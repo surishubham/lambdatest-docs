@@ -22,7 +22,7 @@ module.exports = {
           position: 'right',
         },
         {to: 'blog', label: 'Blog', position: 'right'},
-        {to: 'api', activeBasePath: 'docs/api', label: 'API', position: 'right'},
+        // {to: 'api', activeBasePath: 'docs/api', label: 'API', position: 'right'},
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
